@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Roboto, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-blue: #3556ab;
+  --color-dark-blue: #071d55;
+  --color-red: #ab3535;
+  --color-yellow: #f2c94c;
+  --border-green: #9eb031;
+  --bg-slate: #f3f3f3;
+}
+
+.solid-box-shadow-left {
+  box-shadow: 9px 2px 13px -3px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 9px 2px 13px -3px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 9px 2px 13px -3px rgba(0, 0, 0, 0.59);
+}
+
+.text-shadow-white {
+  text-shadow: 0 1px 0 #fff;
+}
